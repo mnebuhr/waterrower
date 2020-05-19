@@ -1,9 +1,9 @@
 # waterrower
 connect waterrower to a pyInterface
 
-Im Verzeichnis "bremenhack-2016" befindet sich die Dokumentation vom Sportshub. 
+Der Waterrower soll ein neues Interface bekommen. Es sollen live Daten ermittelt werden und diese mit Python dargestellt werden.  
 ![GitHub Logo](/waterrower-meets-python/waterrower-meets-python.png)
 
 
-Im Verzeichnis "bremenhack-2016" befindet sich die Dokumentation vom Sportshub. 
+Das Projekt bezieht sich auf den Sportshub, ein Projekt des Bremenhack 2016. 
 ![GitHub Logo](/bremenhack-2016/sportshub.png)

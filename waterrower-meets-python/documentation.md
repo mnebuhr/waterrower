@@ -9,3 +9,7 @@ Die folgenden Values werden übertragen
 - speed
 - maxspeed
 - avgspeed
+
+![GitHub Logo](/waterrower-meets-python/red-node.PNG)
+
+Konfiguration in Red Node

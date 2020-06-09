@@ -1,6 +1,7 @@
-# firmware
+# Documentation
 
 ## Firmware broadcast functions
+Arduino Code auf dem Node MCU
 ![firmware](/waterrower-meets-python/firmware.png)
 
 Die folgenden Values werden übertragen
@@ -10,6 +11,8 @@ Die folgenden Values werden übertragen
 - maxspeed
 - avgspeed
 
+## Konfiguration in Red Node
+
 ![node-red](/waterrower-meets-python/node-red.PNG)
 
-Konfiguration in Red Node
+

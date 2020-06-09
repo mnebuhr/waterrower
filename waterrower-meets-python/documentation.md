@@ -1,7 +1,7 @@
 # firmware
 
 ## Firmware broadcast functions
-![GitHub Logo](/waterrower-meets-python/firmware.png)
+![firmware](/waterrower-meets-python/firmware.png)
 
 Die folgenden Values werden übertragen
 
@@ -10,6 +10,6 @@ Die folgenden Values werden übertragen
 - maxspeed
 - avgspeed
 
-![GitHub Logo](/waterrower-meets-python/red-node.PNG)
+![node-red](/waterrower-meets-python/node-red.PNG)
 
 Konfiguration in Red Node

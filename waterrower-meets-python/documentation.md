@@ -1,5 +1,8 @@
 # Documentation
 
+Waterrower System (09.06.2020)
+![firmware](/waterrower-meets-python/waterrower-meets-node-red.png)
+
 ## Firmware broadcast functions
 Arduino Code auf dem Node MCU
 ![firmware](/waterrower-meets-python/firmware.png)

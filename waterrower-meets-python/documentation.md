@@ -14,7 +14,7 @@ Die folgenden Values werden übertragen
 - maxspeed
 - avgspeed
 
-## Konfiguration in Red Node
+## Konfiguration in Node-Red
 
 ![node-red](/waterrower-meets-python/node-red.PNG)
 

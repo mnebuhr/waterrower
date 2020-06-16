@@ -1,7 +1,10 @@
 # waterrower
 connect waterrower to a pyInterface
 
-Der Waterrower soll ein neues Interface bekommen. Es sollen live Daten ermittelt werden und diese mit Python dargestellt werden.  
+Der Waterrower soll ein neues Interface bekommen. Es sollen live Daten ermittelt werden und diese auf einer grafischen interaktiven Oberfläche dargestellt werden.  
+
+![GitHub Logo](/waterrower-meets-python/waterrower-meets-shotgun.png)
+
 ![GitHub Logo](/waterrower-meets-python/waterrower-meets-python.png)
 
 

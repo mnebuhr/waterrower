@@ -74,7 +74,9 @@ if __name__ == '__main__':
     api.serve(address="0.0.0.0")
     # asyncio.run(main())
 ```
-## Programmierung PyServer
+## Programmierung HTML mit Canvas und JavaScript
+
+Thanx to https://craftpix.net/freebies/free-swamp-game-tileset-pixel-art/ for the graphics.
  
 ```html
 <!DOCTYPE html>

@@ -77,6 +77,7 @@ if __name__ == '__main__':
 ## Programmierung HTML mit Canvas und JavaScript
 
 Thanx to https://craftpix.net/freebies/free-swamp-game-tileset-pixel-art/ for the graphics.
+Zunächst die Animation in 2D, bzw. 2 1/2 D mit fertigen Grafiken. Die nächste Herausforderung ist, die Animation in 3D darzustellen.  
  
 ```html
 <!DOCTYPE html>

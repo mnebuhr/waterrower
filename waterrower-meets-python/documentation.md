@@ -22,6 +22,8 @@ Die folgenden Values werden übertragen
 https://waterrower.nebuhrhood.org/#!/0?socketid=Sc35ifwYYR3e4bGFAAMr
 
 ## Programmierung PyServer
+Tutorial: https://responder.kennethreitz.org/en/latest/
+
 ```python
 import json
 import responder

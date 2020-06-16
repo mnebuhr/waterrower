@@ -18,6 +18,9 @@ Die folgenden Values werden übertragen
 
 ![node-red](/waterrower-meets-python/node-red.PNG)
 
+## Node-Red Display
+https://waterrower.nebuhrhood.org/#!/0?socketid=Sc35ifwYYR3e4bGFAAMr
+
 ## Programmierung PyServer
 ```python
 import json

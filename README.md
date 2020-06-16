@@ -1,11 +1,10 @@
-# waterrower
-connect waterrower to a pyInterface
+# waterrower 
+connect waterrower to a new Interface
 
 Der Waterrower soll ein neues Interface bekommen. Es sollen live Daten ermittelt werden und diese auf einer grafischen interaktiven Oberfläche dargestellt werden. 
 
-### Stand vom 6.06.2020
+### Stand vom 6.06.2020 (Canvas)
 ![GitHub Logo](/waterrower-meets-python/waterrower-meets-shogun.png)
 
-### Zwischenstand vom 26.05.2020
-(ohne Gyrosensor)
+### Zwischenstand vom 26.05.2020 (ohne Gyrosensor)
 ![GitHub Logo](/waterrower-meets-python/waterrower-meets-python.png)

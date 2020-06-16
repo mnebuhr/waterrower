@@ -71,7 +71,7 @@ if __name__ == '__main__':
 ```
 ## Programmierung PyServer
  
-```
+```html
 <!DOCTYPE html>
 <html>
 

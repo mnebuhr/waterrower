@@ -19,7 +19,7 @@ Die folgenden Values werden übertragen
 ![node-red](/waterrower-meets-python/node-red.PNG)
 
 ## Programmierung PyServer
-```
+```python
 import json
 import responder
 import asyncio

@@ -195,4 +195,119 @@ Zunächst die Animation in 2D, bzw. 2 1/2 D mit fertigen Grafiken. Die nächste 
 
 </html>   
 ```
- 
+## Programmierung HTML mit THREE und JavaScript 
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>My first three.js app</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        canvas {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="js/three.js"></script>
+    <script>
+        var boxes = [];
+        var maxDepth = 5.5;
+        var numberOfBoxes = 100;
+        var boxSize = 0.5;
+        var speedFactor = 1.0;
+        var globalSpeed = 0.1;
+        var maxDeviationX = 3;
+        var maxDeviationY = 2;
+        var originZ = 18;
+
+        // the max. positiv position on the z axis,
+        // bevor the box gets reset.
+        var maxDepth = 5.5; 
+        
+
+        function createBox() {
+
+            var geometry = new THREE.BoxGeometry(boxSize, boxSize, boxSize);
+            var edges = new THREE.EdgesGeometry( geometry );
+            var line = new THREE.LineSegments( edges, new THREE.LineBasicMaterial( { color: 0xffffff } ) );
+
+            return {
+                geometry: geometry,
+                edges: edges,
+                line: line,
+                depth: 0.0,
+                speedFactor: 1.0,
+                move: function(delta) {
+                    var dz = delta * this.speedFactor;
+                    this.depth += dz;
+                    line.geometry.translate(0,0,dz);
+                },
+                checkDepth: function(d) {
+                    if (this.depth > d) {
+                        this.move(-1 * (d+18));
+                    };
+                }
+            }
+            
+        };
+
+        /**
+        * Creates a box with randomized position.
+        */
+        function createRandomizedBox() {
+            var box = createBox();
+            var randX = (Math.random() * (maxDeviationX*2)) - maxDeviationX;
+            var randY = (Math.random() * (maxDeviationY*2)) - maxDeviationY;
+            var randZ = (Math.random() * (originZ + maxDepth)) - originZ;
+            //var randZ = (Math.random() * (23)) - 18;
+            box.speedFactor = Math.random() + 0.5;
+            box.line.geometry.translate(randX, randY, 0);
+            box.move(randZ);
+            return box;
+        }
+
+        
+        var scene = new THREE.Scene();
+        var camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+        var lines = [];
+
+
+        var renderer = new THREE.WebGLRenderer();
+        renderer.setSize( window.innerWidth, window.innerHeight );
+        document.body.appendChild( renderer.domElement );
+
+        // Create som random boxes and store them in an array.
+        for (i=0; i<numberOfBoxes; i++) {
+            boxes.push(createRandomizedBox());
+        };
+
+        // Add the boxes to the scene
+        for (box of boxes) {
+            scene.add( box.line );
+        };
+        
+        camera.position.z = 5;
+
+        var animate = function () {
+            //box.line.geometry.translate(0,0,0.1);
+            for (box of boxes) {
+                box.move(globalSpeed);
+                box.checkDepth(maxDepth);
+            };
+            requestAnimationFrame( animate );
+            renderer.render( scene, camera );
+        };
+
+        animate();
+    </script>
+</body>
+
+</html>
+```

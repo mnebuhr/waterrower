@@ -21,7 +21,7 @@ Die folgenden Values werden übertragen
 ## Halterung mit 3D-Druck
 ![Halterung](/waterrower-meets-python/halterung.PNG)
 
-![3D Object (STL)](/waterrower-meets-python/Handyhalter.stl)
+![3D Object - STL](/waterrower-meets-python/Handyhalter.stl)
 
 ## Konfiguration in Node-Red
 

@@ -18,6 +18,11 @@ Die folgenden Values werden übertragen
 - maxspeed
 - avgspeed
 
+## Halterung mit 3D-Druck
+![Halterung](/waterrower-meets-python/halterung.PNG)
+
+![3D Object (STL)](/waterrower-meets-python/Handyhalter.stl)
+
 ## Konfiguration in Node-Red
 
 ![node-red](/waterrower-meets-python/node-red.PNG)
